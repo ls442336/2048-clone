@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>2048</title>
+		<link href="css/2048.css" rel="stylesheet" type="text/css">
+		<meta name = "viewport" content = "user-scalable=no, width=device-width">
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h1 class="title">2048</h1>
+				<div class="score-container">
+					<div class="score-label">
+						<span class="label-title">SCORE</span>
+						<span class="label-text">0</span>
+					</div>
+					<div class="score-label">
+						<span class="label-title">BEST</span>
+						<span class="label-text">0</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="news-container">
+				<span class="text-alert">Join the numbers and get to <b>2048 tile!</b></span>
+				<a class="btn-primary news-button" href="#">New Game</a>
+				<div style="clear: both;"></div>
+			</div>
+
+			<div class="game-grid-container">
+				<div class="grid-row">
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div style="clear: both;"></div>
+				</div>
+				<div class="grid-row">
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div style="clear: both;"></div>
+				</div>
+
+				<div class="grid-row">
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div style="clear: both;"></div>
+				</div>
+
+				<div class="grid-row">
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div style="clear: both;"></div>
+				</div>
+				<div style="clear: both;"></div>
+				
+				<div class="tiles">
+					<!--<div class="tile tile-1024 tile-position-1-1 title-new">2</div>-->
+				</div>
+			</div>
+			<p class="p-instruction">
+				<b> How to play:</b> Use your <b>arrow keys</b> to move the tiles. When two tiles with the same number touch, they <b>merge into one!</b>
+			</p>
+			<hr>
+		</div>
+		<script src="javascript/2048.js"></script>
+	</body>
+</html>
